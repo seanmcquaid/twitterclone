@@ -29,3 +29,12 @@
 .nav-right {
     float: right;
 }
+
+.nav-right img {
+    border-radius: 50%;
+    width: 10%;
+}
+
+.nav-right button {
+    color: grey;
+}
