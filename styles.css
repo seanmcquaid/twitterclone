@@ -100,7 +100,7 @@ body {
 }
 
 .name, .twitter-handle {
-    margin:4px;
+    margin: 4px;
 }
 
 .name {
@@ -110,9 +110,23 @@ body {
 
 .bio {
     margin-top: 20px;
-    width: 220px;
+    width: 230px;
     font-size: 14px;
     font-weight: normal;
+}
+
+.info {
+    margin-top: 16px;
+}
+
+.info .details {
+    margin-top: 10px;
+    color: #ABB8C2;
+}
+
+.details .dates {
+    color: #657786;
+    font-size: 14px;
 }
 
 .stats {
@@ -122,6 +136,10 @@ body {
 
 .stats div {
     display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: #ABB8C2;
+    vertical-align: top;
 }
 
 
@@ -132,14 +150,14 @@ body {
     margin: 0 auto;
 }
 
-.tweets {
+/* .tweets {
     position: absolute;
     margin-top: 10px;
     margin-left: 440px;
     background-color: black;
     width: 600px;
     height: 200px;
-}
+} */
 
 .who-to-follow {
     position: absolute;
